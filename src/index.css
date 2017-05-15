@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html {
+  background-color: #EDEDED;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.container {
+  width: calc(50% - 60px);
+  margin: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  min-height: 200px;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.green {
+  background-color: #128B82;
+}
+
+.red {
+  background-color: #C32600;
+}
+
+.yellow {
+  background-color: #F2AC10;
+}
+
+.circle {
+  display: inline-block;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.pikachu-container {
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#progress-bar {
+  height: 30px;
+  background-color: #F27983;
+}
+
+.off {
+  width: 0%;
+}
+
+.on {
+  width: 100%;
+  transition: 1s;
+}
