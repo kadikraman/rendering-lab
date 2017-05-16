@@ -22,3 +22,21 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#progress-bar {
+  height: 30px;
+  background-color: #F27983;
+}
+
+.off {
+  width: 0%;
+}
+
+.on {
+  width: 100%;
+  transition: 1s;
+}
+
+.pikachu-container {
+  text-align: center;
+}
