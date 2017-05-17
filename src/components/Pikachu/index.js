@@ -12,6 +12,10 @@ export default class Pikachu extends React.Component {
     this.makeSmaller = this.makeSmaller.bind(this);
   }
 
+  componentDidUpdate() {
+    this.resizePikachu();
+  }
+
   resizePikachu() {
     const pikachu = document.getElementById("pikachu");
     pikachu.height = this.state.size;
