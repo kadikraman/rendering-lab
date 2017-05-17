@@ -18,7 +18,7 @@ class App extends Component {
           <Circles />
         </div>
         <div className="container">
-          <div id="progress-bar" class="off"></div>
+          <div id="progress-bar" className="off"></div>
           <div className="title">componentWillUpdate()</div>
           <Animation />
         </div>
